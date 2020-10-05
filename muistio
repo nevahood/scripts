@@ -1,0 +1,144 @@
+OMA MEMO 10_2020
+(sulkeet) ja KAPITEELIT tapauskohtaisia
+
+
+########## git push##########
+cd PROJEKTIKANSIO (ja mennään kansioon)
+
+git init
+
+git add .
+
+git remote add origin https://github.com/nevahood/PROJEKTIKANSIO.git
+######################################
+
+cd
+
+sudo useradd (userdel) username ja passwd username
+
+sudo groupadd (groupdel)
+
+ls (-l -la)
+
+ps (-A -u -x -ux)
+
+kill
+
+ps aux | grep nginx
+
+top
+
+chmod
+
+chown
+
+uname (-a -v -r)
+
+ifconfig
+
+ip addr show (eth0 ym. )
+
+iptables
+
+df -ah
+
+service NGINX status
+
+systemctl status NGINX
+
+service --status -all
+
+df ja du (-sh FOLDERNAME)
+
+netstat (-tulpn)
+
+ls/mnt
+
+mount /DEV/SDA2/MNT
+
+mount
+
+less /etc/fstab
+
+lsof
+
+id
+
+head
+
+tar
+
+zip ja unzip
+
+watch
+
+locate
+
+lslookup
+
+cut
+
+sed
+
+find
+
+diff
+
+uniq
+
+eval
+
+find
+
+cron
+
+history
+
+tail
+
+passwd
+
+htop
+
+free
+
+sestatus
+
+dd
+
+ip
+
+rpm
+
+telnet
+
+nslookup
+
+curl
+
+awk
+
+ssh ja ssh-keygen
+
+tr
+
+env
+
+sort ja merge
+
+
+
+###############################
+
+memon tekemiseen tarvittiin:
+
+memo nanolla
+
+scripti memolle /usr/local/bin kansioon 
+
+oikeudet kuntoon
+
+sudo chown root: /usr/local/bin/SCRIPTNAME
+sudo chmod 755 /usr/local/bin/SCRIPTNAME
+
+##########################
